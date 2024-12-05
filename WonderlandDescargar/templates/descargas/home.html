@@ -5,32 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wonderland</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
 </head>
-
-<header>
-    <h1>Wonderland</h1>
-</header>
-
 <body>
 
-<a href="" id="LinkDescarga" style="display: none;">
-    descargar
-</a>
+<header>
+    <h1>Bienvenido a Wonderland</h1>
+</header>
 
-<img src="" alt="Aca va un QR" id="QRDescarga" style="display: none;">
+<main class="main-content">
+    <a href="https://github.com/feikgold/WonderlandPaginaExamen/releases/download/100/wonderland_et.apk" id="LinkDescarga">
+        Descargar APK
+    </a>
+    <img src="path_to_qr_code.jpg" alt="QR de Descarga" id="QRDescarga">
+</main>
 
-</body>
-
-<footer >
-    <div class="content">
-        <h2>Acerca de Nosotros</h2>
+<footer>
+    <div class="footer-section">
+        <h2>¿Qué hacemos?</h2>
         <p>
-            Somos una aplicacion para poder descargar albumes de musica xd
+            ¡La música es el alma de la vida! En nuestra plataforma, te ofrecemos la oportunidad de descubrir y descargar álbumes de música de una amplia variedad de grupos y artistas de todos los géneros.
         </p>
+    </div>
+    <div class="footer-section">
+        <h2>Contáctanos</h2>
+        <ul>
+            <li>Admisión: <a href="tel:+56227120640">+56 2 2712 0640</a></li>
+            <li>WhatsApp: <a href="https://wa.me/56958142089">+56 9 5814 2089</a></li>
+            <li>Correo: <a href="mailto:info@duoc.cl">info@duoc.cl</a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        © 2024 Wonderland - Todos los derechos reservados.
     </div>
 </footer>
 
-<script src="{% static 'js/home.js' %}"></script>
-
+</body>
 </html>
+

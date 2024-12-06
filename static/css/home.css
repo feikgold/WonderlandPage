@@ -1,3 +1,4 @@
+
 /* Reset */
 * {
     margin: 0;
@@ -90,7 +91,19 @@ img#QRDescarga {
     text-align: center;
 }
 
-.text-lg-left {
-    text-align: left;
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilos sin @media (mostrar ambos elementos siempre) */
+#pc-download {
+    display: block; /* Siempre visible */
+}
+
+#mobile-download {
+    display: block; /* Siempre visible */
 }
 

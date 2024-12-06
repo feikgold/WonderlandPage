@@ -16,10 +16,19 @@
 </header>
 
 <div class="container d-flex flex-column justify-content-center align-items-center my-5">
-    <a href="https://github.com/feikgold/WonderlandPaginaExamen/releases/download/100/wonderland_et.apk" id="LinkDescarga" class="btn btn-danger btn-lg mb-4">
-        Descargar APK
-    </a>
-    <img src="path_to_qr_code.jpg" alt="QR de Descarga" id="QRDescarga" class="img-fluid" style="max-width: 200px;">
+    <!-- Enlace de descarga solo en dispositivos móviles -->
+    <div id="mobile-download" class="centered">
+        <p>Haz clic en el siguiente enlace para descargar APK:</p>
+        <a href="https://github.com/feikgold/WonderlandPaginaExamen/releases/download/100/wonderland_et.apk" id="LinkDescarga" class="btn btn-danger btn-lg mb-4">
+            Descargar APK
+        </a>
+    </div>
+
+    <!-- QR de descarga solo en pantallas de escritorio -->
+    <div id="pc-download" class="centered" style="display: none;">
+        <p>Escanea el QR para descargar APK:</p>
+        <div id="qr-code" style="width: 200px; height: 200px;"></div>
+    </div>
 </div>
 
 <footer class="footer bg-dark text-white">

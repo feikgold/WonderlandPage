@@ -1,11 +1,10 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* General */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #07d8e2;
@@ -15,15 +14,14 @@ body {
     min-height: 100vh;
 }
 
-/* Header */
 header {
+    font-family: 'Great vibes', cursive; 
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-/* Main Container */
 .container {
     text-align: center;
 }
@@ -32,22 +30,17 @@ header {
     margin-top: 20px;
 }
 
-/* Carrusel */
-.carousel-container {
-    max-width: 500px;
-    margin: 30px auto;
-}
-
-.carousel img {
-    width: 100%;
+img {
+    width: 200px;  
     height: auto;
-    object-fit: cover;
+    margin-bottom: 20px;
 }
 
-/* Footer */
+
 .footer {
     background-color: #333;
     color: white;
+    padding: 20px 0;
 }
 
 .footer-title {
@@ -63,5 +56,4 @@ header {
 .footer-link:hover {
     color: #ff4c3b;
 }
-
 

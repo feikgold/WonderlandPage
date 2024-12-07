@@ -1,3 +1,5 @@
+
+
 // Detección de dispositivo usando el Agente de Usuario
 function detectDevice() {
     var userAgent = navigator.userAgent;
@@ -32,3 +34,6 @@ window.onload = function () {
     detectDevice();
     window.onresize = detectDevice; // Para ajustar el contenido si cambia el tamaño de la pantalla
 };
+
+
+
